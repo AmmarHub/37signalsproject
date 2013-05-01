@@ -1,0 +1,247 @@
+/*----------------THIS IS THE START OF THE CSS RESET----------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---------------END OF CSS RESET---------------*/
+
+
+/*------------Start - Navigation bar----------*/
+
+.nav {
+	border: 1px solid black;
+	margin: 8px 50px 30px 50px;
+	padding: 13px;
+	}
+
+.nav li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	}
+
+.greeting {
+	float: left;
+	font-family: Lucida Grande;
+	font-size: 12px;
+	color: #999;
+	}
+	
+#signin {
+	float: right;
+	font-family: Lucida Grande;
+	font-size: 12px;
+	}
+#signin a {
+	text-decoration: none;
+	color: #18afe0;
+	}
+#signin a:hover {
+	color: #369;
+	}
+
+.menu {
+	float: right;
+	font-family: Lucida Grande;
+	font-size: 12px;
+	}
+.menu a {
+	text-decoration: none;
+	color: #369;
+	}
+.menu a:hover {
+	color: #6699cc;
+	}
+
+/*----------End - Navigation bar----------*/
+
+/*----------Start - Main logo--------------*/
+	
+.logo {
+	margin: 20px;
+	border: 1px solid black;
+	text-align: center;
+	}
+
+/*----------End - Main logo---------------*/
+
+/*-----------Start - Section 1---------------*/
+
+.sec1 {
+	border: 1px solid black;
+	margin: 0px 200px 0px 200px;
+	text-align: center;
+	}
+
+.sec1 h1 {
+	font-family: crimsonsemibold;
+	font-weight: 580;
+	font-style: normal;
+	font-size: 58px;
+	clear: both;
+	line-height: 1.0em;
+	margin-bottom: 20px;
+	letter-spacing: -2px;
+	color: #232323;
+	}
+
+.sec1 p {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 10px 0px 10px 0px;
+	}
+
+.products {
+	border: 1px solid black;
+	margin: 12px 100px 35px 100px;
+	padding: 1px;
+	text-align: center;
+	}
+
+.products a {
+	display: inline-block;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	text-decoration: none;
+	height: 220px;
+	width: 160px;
+	margin: 5px 15px 5px 15px;
+	padding: 20px 10px 10px 10px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255, 255, 255)), to(rgb(239, 239, 239)));
+	box-shadow: 0 0 5px #efefef;
+	}
+
+.prod h3 {
+	font-size: 21px;
+	margin: 10px 0px 10px 10px;
+	color: #369;
+	font-family: Lucida Grande;
+	font-weight: bold;
+	}
+
+.prod h4 {
+	margin: 10px 0px 10px;
+	font-size: 14px;
+	font-family: Lucida Grande;
+	color: #cc0000;
+	font-weight: bold;
+	}
+
+.prod p {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-top: 20px;
+	font-family: Lucida Grande;
+	}
+	
+/*------------End - Section 1----------------*/
+
+/*------------Start - Horizontal Rule----------------*/
+
+hr {
+	clear: both;
+	height: 12px;
+	background: white url(http://37signals.com/images/img-hr.png) no-repeat scroll 50% 50%;
+	border: 0;
+	}
+
+/*------------End - Horizontal Rule----------------*/
+
+/*------------Start - Section 2----------------*/
+
+.sec2 {
+	text-align: center;
+	border: 1px solid black;
+	margin: 40px 200px 40px 200px;
+	}
+
+.sec2 h1 {
+	color: #232323;
+	margin: 30px 0;
+	font-size: 48px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	}
+
+#worldbadge {
+	float: right;
+	}
+
+.sec2 p {
+	text-align: left;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.3em;
+	color: #666;
+	margin: 0px 15px 30px 15px;
+	}
+
+/*------------End - Section 2----------------*/
+
+/*------------Start - Section 3--------------*/
+
+.sec3 {
+	text-align: center;
+	border: 1px solid black;
+	margin: 40px 200px 40px 200px;
+	}
+
+.sec3 h1 {
+	color: #232323;
+	margin: 30px 0;
+	font-size: 48px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	
+	
+	
+/*---------End - Section 3---------------*/
